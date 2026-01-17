@@ -1,0 +1,60 @@
+@import '../../style.scss';
+
+.clarify-requests{
+    width: 80%;
+    margin: 50px auto;
+    position: relative;
+    padding-bottom: 50px;
+    min-height: 1000px;
+    background-color: $background-base;
+    border-radius: 20px;
+    &__content{
+        padding: 15px 30px;
+        width: 100%;
+        
+    }
+    &__title{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        text-align: center;
+        font-size: 2rem;
+        font-family:'Deledd0',Arial, Helvetica, sans-serif;
+    }
+    &__cards{
+        list-style-type: none;
+        
+    }
+    &__item{
+        margin: 20px auto;
+        width: 100%;
+        min-height: 400px;
+        background-color: white;
+        border-radius: 20px;
+        padding: 20px 30px 40px 30px;
+    }
+    &__pic{
+        // display: block;
+        width: 250px;
+        height: 250px;
+        float: left;
+        margin-right: 20px;
+        border-radius: 10px;
+    }
+
+    &__text{
+        font-size: 1.4rem;
+        line-height: 1.6rem;
+        text-indent: 1.4rem;
+        font-family:'Deledda',Arial, Helvetica, sans-serif;
+    }
+    
+    &__item-title{
+        margin-top: 25px;
+        margin-bottom: 35px;
+        text-align: center;
+        font-size: 2rem;
+        line-height: 1.6rem;
+        text-indent: 1.4rem;
+        font-family:'Deledda0',Arial, Helvetica, sans-serif;
+    }
+}

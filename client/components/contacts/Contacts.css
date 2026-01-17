@@ -1,0 +1,136 @@
+@font-face {
+  font-family: "Deledda";
+  src: url("./fonts/ofont.ru_Deledda.ttf");
+}
+@font-face {
+  font-family: "DeleddaO";
+  src: url("./fonts/ofont.ru_DeleddaO.ttf");
+}
+@font-face {
+  font-family: "LTSuperiorR";
+  src: url("./fonts/LTSuperior-Regular.otf");
+}
+@font-face {
+  font-family: "LTSuperiorM";
+  src: url("./fonts/LTSuperior-Medium.otf");
+}
+@font-face {
+  font-family: "LTSuperiorB";
+  src: url("./fonts/LTSuperior-Bold.otf");
+}
+@font-face {
+  font-family: "Kanit";
+  src: url("./fonts/Kanit_Cyrillic.ttf");
+}
+@font-face {
+  font-family: "MagnetTrialM";
+  src: url("./fonts/MagnetTrial-Medium.ttf");
+}
+@font-face {
+  font-family: "MagnetTrialL";
+  src: url("./fonts/MagnetTrial-Light.ttf");
+}
+@font-face {
+  font-family: "FuturaRg";
+  src: url("./fonts/FuturaRg.ttf");
+}
+@font-face {
+  font-family: "Florisel";
+  src: url("./fonts/Floriselscript.ttf");
+}
+@font-face {
+  font-family: "Kindentosca";
+  src: url("./fonts/Kindentosca.otf");
+}
+@font-face {
+  font-family: "Propisi";
+  src: url("./fonts/Propisi.ttf");
+}
+@font-face {
+  font-family: "Arctika";
+  src: url("./fonts/Arc.otf");
+}
+.contacts {
+  min-height: 500px;
+}
+.contacts__content {
+  width: 80%;
+  margin: 10px auto;
+  padding: 15px;
+  position: relative;
+  padding-bottom: 20px;
+}
+.contacts__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.contacts__left {
+  width: 50%;
+}
+.contacts__right {
+  width: 50%;
+}
+.contacts__right img {
+  display: block;
+  width: 100%;
+}
+.contacts__title {
+  font-family: "Deledd0", Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+}
+.contacts__list {
+  margin-top: 30px;
+  padding: 10px;
+}
+.contacts__item {
+  padding: 0;
+  margin-bottom: 40px;
+}
+.contacts__item-title {
+  display: flex;
+}
+.contacts__svg {
+  filter: invert(66%) sepia(80%) saturate(567%) hue-rotate(333deg) brightness(105%) contrast(101%);
+}
+.contacts__descript {
+  font-family: "Deledd", Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  padding: 15px;
+}
+.contacts__basic {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.phone-base {
+  font-size: 2rem;
+  font-family: "Deledd0", Arial, Helvetica, sans-serif;
+}
+
+.mail-base__link {
+  font-size: 1.4rem;
+  color: rgb(255, 167, 52);
+}
+
+.icon-base {
+  display: flex;
+  padding: 20px 0;
+}
+.icon-base__item {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: rgb(255, 167, 52);
+  margin-right: 10px;
+}
+.icon-base__link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-base .base-svg {
+  filter: invert(100%) sepia(6%) saturate(71%) hue-rotate(238deg) brightness(110%) contrast(95%);
+}/*# sourceMappingURL=Contacts.css.map */

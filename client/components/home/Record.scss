@@ -1,0 +1,90 @@
+@import '../../style.scss';
+
+.record{
+    position: relative;
+    margin: 100px auto;
+    width: 700px;
+    height: 400px;
+    background-color: $background-base;
+    padding: 20px 30px;
+    &__content{
+        width: 100%;
+        margin: 15px auto;
+    }
+    &__explanation{
+        font-family:'Deledda',Arial, Helvetica, sans-serif; 
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    &__exit{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        border: 1px solid black;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        right: -12px;
+        top: -12px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+.form-record{
+    width: 630px;
+    margin: 20px auto;
+    &__label{
+        font-family:'Deledda',Arial, Helvetica, sans-serif;
+        font-size: 1rem;
+        color: rgb(135, 135, 135);
+        display: block;
+        text-align: start;
+        margin: 15px auto 5px auto;
+        width: 70%;
+    }
+    &__input{
+        display: block;
+        margin: 0 auto;
+        width: 70%;
+        height: 2rem;
+        padding: 5px;
+        font-size: 1.5rem;
+        border-radius: 10px;
+    }
+    &__label::after{
+        content: "*";
+        margin-left: 5px;
+        color: red;
+    }
+
+    &__button{
+        margin: 0 20px;
+        padding: 5px;
+        font-size: 1.2rem;
+        background-color: $base-color;
+        color: rgb(255, 255, 255);
+        border-radius: 10px;
+        height: 42px;
+        width: 150px;
+        cursor: pointer;
+        display: block;
+    }
+    &__button:hover{
+        background-color: rgb(223, 147, 47);
+        color: rgb(220, 220, 220);
+        transition: all 0.3s linear;
+    }
+    &__button:active{
+        background-color: rgb(172, 113, 36);
+        color: rgb(139, 139, 139);
+        transition: all 0.3s linear;
+    }
+}
+
+.button-how{
+    margin: 42px auto;
+    font-family:'Deledda',Arial, Helvetica, sans-serif;
+}

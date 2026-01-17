@@ -1,0 +1,203 @@
+@import '../../style.scss';
+
+
+
+.appointment {
+    position: relative;
+    width: 90%;
+    background-color: $background-base;
+    margin: 20px auto;
+    border-radius: 20px;
+    padding: 30px;
+
+    @media screen and (max-width: 420px) {
+        padding: 30px 10px;
+    }
+
+    &__content {
+        text-align: center;
+    }
+
+    &__title {
+        font-family: 'MagnetTrialM', Arial, Helvetica, sans-serif;
+        font-size: 1.8rem;
+
+        @media screen and (max-width: 900px) {
+            font-size: 1.6rem;
+        }
+
+    }
+
+    &__text {
+        font-family: 'LTSuperiorR', Arial, Helvetica, sans-serif;
+        font-size: 1.2rem;
+        margin: 10px;
+        color: rgb(74, 74, 74);
+        width: 500px;
+        margin: 20px auto;
+        line-height: 1.6rem;
+
+        @media screen and (max-width: 900px) {
+            width: 400px;
+            font-size: 1rem;
+            line-height: 1.4rem;
+        }
+
+        @media screen and (max-width: 800px) {
+            width: 350px;
+            font-size: 1rem;
+            line-height: 1.4rem;
+        }
+
+        @media screen and (max-width: 700px) {
+            width: 300px;
+            font-size: .9rem;
+            line-height: 1.2rem;
+        }
+
+        @media screen and (max-width: 540px) {
+            width: 230px;
+        }
+    }
+
+    &__form {
+        width: 700px;
+        margin: 0 auto;
+
+        @media screen and (max-width: 900px) {
+            width: 600px;
+        }
+
+        @media screen and (max-width: 800px) {
+            width: 500px;
+        }
+
+        @media screen and (max-width: 700px) {
+            width: 400px;
+        }
+
+        @media screen and (max-width: 540px) {
+            width: 300px;
+        }
+
+        @media screen and (max-width: 420px) {
+            width: 230px;
+        }
+
+
+    }
+
+    &__label {
+        font-family: 'LTSuperiorR', Arial, Helvetica, sans-serif;
+        font-size: 1rem;
+        color: rgb(135, 135, 135);
+        display: block;
+        text-align: start;
+        margin: 15px auto 5px auto;
+        width: 70%;
+    }
+
+    &__label::after {
+        content: "*";
+        margin-left: 5px;
+        color: red;
+    }
+
+    &__input {
+        display: block;
+        margin: 0 auto;
+        width: 70%;
+        height: 2rem;
+        padding: 5px;
+        font-size: 1.5rem;
+        border-radius: 10px;
+
+        @media screen and (max-width: 700px) {
+            font-size: 1rem;
+        }
+
+        @media screen and (max-width: 420px) {
+            width: 90%;
+        }
+    }
+
+    &__textarea {
+        width: 85%;
+        height: 200px;
+        font-size: 1.2rem;
+        border-radius: 10px;
+        margin-top: 35px;
+        resize: none;
+        padding: 10px;
+
+        @media screen and (max-width: 420px) {
+            width: 100%;
+        }
+    }
+
+    &__button {
+        margin: 0 20px;
+        padding: 5px;
+        font-size: 1.2rem;
+        background-color: $base-color;
+        color: rgb(255, 255, 255);
+        border-radius: 10px;
+        height: 42px;
+        width: 150px;
+        cursor: pointer;
+        display: block;
+        font-family: 'LTSuperiorM', Arial, Helvetica, sans-serif;
+    }
+
+    &__button:hover {
+        background-color: rgb(223, 147, 47);
+        color: rgb(220, 220, 220);
+        transition: all 0.3s linear;
+    }
+
+    &__button:active {
+        background-color: rgb(172, 113, 36);
+        color: rgb(139, 139, 139);
+        transition: all 0.3s linear;
+    }
+    
+    &__button:disabled {
+        background-color: rgb(172, 113, 36);
+        color: rgb(89, 89, 89);
+        transition: all 0.3s linear;
+    }
+
+    &__check {
+        font-family: 'LTSuperiorR', Arial, Helvetica, sans-serif;
+        font-size: 1rem;
+        color: rgb(135, 135, 135);
+        text-align: center;
+        margin: 15px auto 5px auto;
+        width: 70%;
+
+        input[type="checkbox"] {
+            margin-right: 10px;
+            cursor: pointer;
+        }
+    }
+
+    &__check::after {
+        content: "*";
+        margin-left: 5px;
+        color: red;
+    }
+
+    &__politic{
+        font-family: 'LTSuperiorR', Arial, Helvetica, sans-serif;
+        font-size: 0.9rem;
+        color: rgb(135, 135, 135);
+        text-align: center;
+        margin: 8px auto 5px auto;
+        width: 70%;
+    }
+}
+
+.button-placement {
+    margin: 20px auto;
+    font-family: 'LTSuperiorR', Arial, Helvetica, sans-serif;
+}

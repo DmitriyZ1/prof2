@@ -1,0 +1,215 @@
+@font-face {
+  font-family: "Deledda";
+  src: url("./fonts/ofont.ru_Deledda.ttf");
+}
+@font-face {
+  font-family: "DeleddaO";
+  src: url("./fonts/ofont.ru_DeleddaO.ttf");
+}
+@font-face {
+  font-family: "LTSuperiorR";
+  src: url("./fonts/LTSuperior-Regular.otf");
+}
+@font-face {
+  font-family: "LTSuperiorM";
+  src: url("./fonts/LTSuperior-Medium.otf");
+}
+@font-face {
+  font-family: "LTSuperiorB";
+  src: url("./fonts/LTSuperior-Bold.otf");
+}
+@font-face {
+  font-family: "Kanit";
+  src: url("./fonts/Kanit_Cyrillic.ttf");
+}
+@font-face {
+  font-family: "MagnetTrialM";
+  src: url("./fonts/MagnetTrial-Medium.ttf");
+}
+@font-face {
+  font-family: "MagnetTrialL";
+  src: url("./fonts/MagnetTrial-Light.ttf");
+}
+@font-face {
+  font-family: "FuturaRg";
+  src: url("./fonts/FuturaRg.ttf");
+}
+@font-face {
+  font-family: "Florisel";
+  src: url("./fonts/Floriselscript.ttf");
+}
+@font-face {
+  font-family: "Kindentosca";
+  src: url("./fonts/Kindentosca.otf");
+}
+@font-face {
+  font-family: "Propisi";
+  src: url("./fonts/Propisi.ttf");
+}
+@font-face {
+  font-family: "Arctika";
+  src: url("./fonts/Arc.otf");
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  min-height: 158px;
+  background-color: rgb(62, 62, 62);
+}
+.footer__content {
+  margin: 30px auto;
+  width: 85%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 900px) {
+  .footer__content {
+    display: block;
+  }
+}
+@media screen and (max-width: 650px) {
+  .footer__content {
+    margin-bottom: 90px;
+  }
+}
+.footer__left {
+  flex: 1;
+}
+.footer__average {
+  flex: 1;
+}
+.footer__right {
+  flex: 1;
+}
+
+.footer-foot {
+  color: rgb(197, 197, 197);
+  font-family: "Deledda", Arial, Helvetica, sans-serif;
+}
+@media screen and (max-width: 900px) {
+  .footer-foot {
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  .footer-foot {
+    width: 70%;
+    text-align: center;
+  }
+}
+.footer-foot__item {
+  display: flex;
+  margin: 5px 0;
+}
+.footer-foot__point {
+  margin-left: 15px;
+  margin-top: 8px;
+}
+.footer-foot__link {
+  font-family: "Deledda0", Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  margin: 0 5px;
+}
+@media screen and (max-width: 900px) {
+  .footer-foot__links {
+    display: none;
+  }
+}
+.footer-foot__separator {
+  margin: 0;
+}
+.footer-foot__label {
+  padding: 4px 10px 15px 10px;
+}
+.footer-foot__copyright {
+  font-size: 0.8rem;
+  margin: 5px 6px;
+}
+.footer-foot__social {
+  display: flex;
+}
+.footer-foot__info {
+  margin: 10px 0;
+}
+.footer-foot__info p {
+  font-size: 0.8rem;
+}
+@media screen and (max-width: 1100px) {
+  .footer-foot__info p {
+    font-size: 0.7rem;
+  }
+}
+
+.social-item {
+  background-color: rgb(96, 96, 96);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  margin-right: 8px;
+}
+.social-item__svg {
+  display: block;
+  filter: invert(99%) sepia(0%) saturate(1535%) hue-rotate(182deg) brightness(118%) contrast(80%);
+}
+
+.point-mail {
+  color: rgb(255, 167, 52);
+}
+
+.svg-circle {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(96, 96, 96);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.svg-circle__pic {
+  display: block;
+  filter: invert(99%) sepia(0%) saturate(1535%) hue-rotate(182deg) brightness(118%) contrast(80%);
+}
+
+.footer-fixed {
+  position: fixed;
+  z-index: 200;
+  right: 10px;
+  bottom: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.footer-fixed__item {
+  border-radius: 50%;
+  background-color: rgb(255, 167, 52);
+  width: 48px;
+  height: 48px;
+  display: grid;
+  place-items: center;
+}
+.footer-fixed__svg {
+  filter: invert(99%) sepia(36%) saturate(61%) hue-rotate(214deg) brightness(114%) contrast(94%);
+}
+
+.foot-logo {
+  width: 224px;
+  height: 40px;
+}
+@media screen and (max-width: 399px) {
+  .foot-logo {
+    width: 190.4px;
+    height: 34px;
+  }
+}
+
+.click-download {
+  cursor: pointer;
+}/*# sourceMappingURL=Footer.css.map */

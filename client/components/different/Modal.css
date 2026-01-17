@@ -1,0 +1,28 @@
+.modal {
+  position: fixed;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 100;
+}
+.modal__background {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  transition: background-color 0.5s linear;
+}
+.modal__dark {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.modal__cross {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  cursor: pointer;
+  z-index: 300;
+}
+.modal__cross img {
+  filter: invert(48%) sepia(5%) saturate(5%) hue-rotate(334deg) brightness(90%) contrast(84%);
+}/*# sourceMappingURL=Modal.css.map */

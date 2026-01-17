@@ -1,0 +1,213 @@
+@import '../../style.scss';
+
+
+.education {
+    padding: 40px 0;
+    width: 90%;
+    background-color: $background-base;
+    margin: 100px auto;
+    border-radius: 30px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__content {
+        width: 80%;
+        display: flex;
+
+        @media screen and (max-width: 1100px) {
+            display: block;
+        }
+    }
+
+    &__diplomas {
+        width: 420px;
+        min-width: 420px;
+        height: 420px;
+        border: 1px solid rgb(255, 255, 255);
+        box-sizing: border-box;
+        background-color: white;
+        border-radius: 20px;
+
+        @media screen and (max-width: 1100px) {
+            margin: 0 auto;
+        }
+
+        @media screen and (max-width: 650px) {
+            width: 336px;
+            height: 336px;
+            min-width: 336px;
+        }
+
+        @media screen and (max-width: 500px) {
+            width: 268px;
+            height: 268px;
+            min-width: 268px;
+        }
+
+        @media screen and (max-width: 400px) {
+            width: 227px;
+            height: 227px;
+            min-width: 227px;
+        }
+    }
+
+    &__text {
+        margin-left: 50px;
+
+        @media screen and (max-width: 1100px) {
+            margin-top: 30px;
+            margin-left: 0px;
+        }
+    }
+
+    &__tittle {
+        font-family: 'Kanit', Arial, Helvetica, sans-serif;
+        font-size: 1.6rem;
+
+        @media screen and (max-width: 1200px) {
+            font-size: 1.3rem;
+        }
+
+        @media screen and (max-width: 500px) {
+            font-size: 1.1rem;
+        }
+    }
+
+    &__other {
+        font-family: 'FuturaRg', Arial, Helvetica, sans-serif;
+        margin-top: 10px;
+    }
+}
+
+.slider {
+    width: 420px;
+    height: 420px;
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+
+    @media screen and (max-width: 650px) {
+        width: 336px;
+        height: 336px;
+    }
+
+    @media screen and (max-width: 500px) {
+        width: 268px;
+        height: 268px;
+    }
+
+    @media screen and (max-width: 400px) {
+        width: 227px;
+        height: 227px;
+    }
+
+    &__control {
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+    }
+
+    &__right {
+        left: 22px;
+    }
+
+    &__left {
+        right: 22px;
+    }
+
+    &__scroll-slider {
+        position: relative;
+        right: 22px;
+        width: 44px;
+        height: 44px;
+        border-radius: 100%;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        border: 1px solid rgb(234, 234, 234);
+
+        @media screen and (max-width: 500px) {
+            width: 35px;
+            height: 35px;
+        }
+    }
+}
+
+.pic {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+
+    &__jpg {
+        display: block;
+        max-width: 100%;
+        max-height: 100%;
+        position: relative;
+    }
+
+    &__tittle {
+        display: block;
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        top: 30px;
+        font-size: 2rem;
+        font-family: 'Kanit', Arial, Helvetica, sans-serif;
+        z-index: 200;
+    }
+
+    &__show {
+        object-fit: fill;
+        display: block;
+        margin: 10px auto;
+        border-radius: 20px;
+        max-width: 95vh;
+        // width: 95%;
+
+        @media screen and (max-width: 1200px) {
+             width: 95%;
+        }
+        // @media screen and (max-width: 750px) {
+        //     max-height: 60vh;
+        // }
+        // @media screen and (max-width: 650px) {
+        //     max-height: 50vh;
+        // }
+        // @media screen and (max-width: 500px) {
+        //     max-height: 40vh;
+        // }
+        
+    }
+}
+
+.other-list {
+    font-size: 1.1rem;
+
+    @media screen and (max-width: 1200px) {
+        font-size: 0.9rem;
+    }
+
+    @media screen and (max-width: 500px) {
+        font-size: 0.8rem;
+    }
+
+    &__item {
+        margin-bottom: 5px;
+    }
+}

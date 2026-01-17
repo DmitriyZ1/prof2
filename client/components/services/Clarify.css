@@ -1,0 +1,94 @@
+@font-face {
+  font-family: "Deledda";
+  src: url("./fonts/ofont.ru_Deledda.ttf");
+}
+@font-face {
+  font-family: "DeleddaO";
+  src: url("./fonts/ofont.ru_DeleddaO.ttf");
+}
+@font-face {
+  font-family: "LTSuperiorR";
+  src: url("./fonts/LTSuperior-Regular.otf");
+}
+@font-face {
+  font-family: "LTSuperiorM";
+  src: url("./fonts/LTSuperior-Medium.otf");
+}
+@font-face {
+  font-family: "LTSuperiorB";
+  src: url("./fonts/LTSuperior-Bold.otf");
+}
+@font-face {
+  font-family: "Kanit";
+  src: url("./fonts/Kanit_Cyrillic.ttf");
+}
+@font-face {
+  font-family: "MagnetTrialM";
+  src: url("./fonts/MagnetTrial-Medium.ttf");
+}
+@font-face {
+  font-family: "MagnetTrialL";
+  src: url("./fonts/MagnetTrial-Light.ttf");
+}
+@font-face {
+  font-family: "FuturaRg";
+  src: url("./fonts/FuturaRg.ttf");
+}
+@font-face {
+  font-family: "Florisel";
+  src: url("./fonts/Floriselscript.ttf");
+}
+@font-face {
+  font-family: "Kindentosca";
+  src: url("./fonts/Kindentosca.otf");
+}
+@font-face {
+  font-family: "Propisi";
+  src: url("./fonts/Propisi.ttf");
+}
+@font-face {
+  font-family: "Arctika";
+  src: url("./fonts/Arc.otf");
+}
+.clarify {
+  padding-bottom: 80px;
+}
+
+.clarify-article {
+  width: 80%;
+  margin: 0px auto;
+  padding: 15px;
+  position: relative;
+  padding-bottom: 50px;
+}
+.clarify-article__title {
+  font-family: "Deledd0", Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  margin: 20px 20px;
+}
+.clarify-article__paragraf {
+  font-family: "Deledda", Arial, Helvetica, sans-serif;
+  font-size: 1.4rem;
+  text-indent: 1.5rem;
+  line-height: 1.6rem;
+}
+.clarify-article__pic-one {
+  max-width: 300px;
+  float: right;
+  margin: 20px 0px;
+  border-radius: 10px;
+}
+.clarify-article__pic-two {
+  max-width: 300px;
+  float: left;
+  margin: 20px 0px;
+  border-radius: 10px;
+  margin-right: 40px;
+}
+.clarify-article__list {
+  font-family: "Deledda0", Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+}
+.clarify-article__item {
+  margin: 0;
+}/*# sourceMappingURL=Clarify.css.map */

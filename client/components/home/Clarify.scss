@@ -1,0 +1,92 @@
+@import '../../style.scss';
+
+.clarify{
+    padding-bottom: 0px;
+}
+
+.clarify-article{
+    width: 90%;
+    // min-height: 300px;
+    // background-color: azure;
+    margin: 0px auto;
+    padding: 15px;
+    position: relative;
+    padding-bottom: 50px;
+    &__title{
+        font-family:'Kanit',Arial, Helvetica, sans-serif;
+        font-size: 2rem;
+        margin: 20px 20px;
+        @media screen and (max-width: 1200px) {
+            font-size: 1.8rem;
+        }
+        @media screen and (max-width: 500px) {
+            font-size: 1.5rem;
+        }
+    }
+    &__paragraf{
+        font-family:'MagnetTrialL',Arial, Helvetica, sans-serif;
+        font-size: 1.3rem;
+        text-indent: 1.5rem;
+        line-height: 1.6rem;
+        @media screen and (max-width: 1200px) {
+            font-size: 1.1rem;
+            text-indent: 1.3rem;
+            line-height: 1.4rem;
+        }
+        @media screen and (max-width: 500px) {
+            font-size: 0.9rem;
+            text-indent: 1.1rem;
+            line-height: 1.2rem;
+        }
+        
+    }
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        @media screen and (max-width: 850px) {
+            display: block;
+         }
+
+    }
+    &__pic-one{
+        max-width: 300px;
+        float:right;
+        margin: 20px 0px;
+        border-radius: 10px;
+    }
+    &__pic-two{
+        display: block;
+        max-width: 250px;
+        margin: 20px 0px;
+        border-radius: 10px;
+        margin-right: 40px;
+        @media screen and (max-width: 1200px) {
+            max-width: 200px;
+        }
+        @media screen and (max-width: 850px) {
+            margin: 0 auto;
+        }
+    }
+    &__list{
+        display: block;
+        width: 70%;
+        margin-top: 20px;
+        font-family: 'Intro', Arial, Helvetica, sans-serif;
+        font-size: 1.5rem;
+        // list-style: none;
+        @media screen and (max-width: 1200px) {
+            font-size: 1.3rem;
+        }
+        @media screen and (max-width: 850px) {
+            margin: 0 auto;
+            width: 100%;
+        }
+        @media screen and (max-width: 500px) {
+            font-size: 1.1rem;
+        }
+    }
+    &__item{
+        margin: 10px 0;
+        width: 100%;
+    }
+}

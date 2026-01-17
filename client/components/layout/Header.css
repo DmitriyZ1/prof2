@@ -1,0 +1,276 @@
+@font-face {
+  font-family: "Deledda";
+  src: url("./fonts/ofont.ru_Deledda.ttf");
+}
+@font-face {
+  font-family: "DeleddaO";
+  src: url("./fonts/ofont.ru_DeleddaO.ttf");
+}
+@font-face {
+  font-family: "LTSuperiorR";
+  src: url("./fonts/LTSuperior-Regular.otf");
+}
+@font-face {
+  font-family: "LTSuperiorM";
+  src: url("./fonts/LTSuperior-Medium.otf");
+}
+@font-face {
+  font-family: "LTSuperiorB";
+  src: url("./fonts/LTSuperior-Bold.otf");
+}
+@font-face {
+  font-family: "Kanit";
+  src: url("./fonts/Kanit_Cyrillic.ttf");
+}
+@font-face {
+  font-family: "MagnetTrialM";
+  src: url("./fonts/MagnetTrial-Medium.ttf");
+}
+@font-face {
+  font-family: "MagnetTrialL";
+  src: url("./fonts/MagnetTrial-Light.ttf");
+}
+@font-face {
+  font-family: "FuturaRg";
+  src: url("./fonts/FuturaRg.ttf");
+}
+@font-face {
+  font-family: "Florisel";
+  src: url("./fonts/Floriselscript.ttf");
+}
+@font-face {
+  font-family: "Kindentosca";
+  src: url("./fonts/Kindentosca.otf");
+}
+@font-face {
+  font-family: "Propisi";
+  src: url("./fonts/Propisi.ttf");
+}
+@font-face {
+  font-family: "Arctika";
+  src: url("./fonts/Arc.otf");
+}
+.header {
+  position: relative;
+  width: 100%;
+  height: 80px;
+  background-color: rgb(255, 255, 255);
+  padding: 19px 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo {
+  width: 20%;
+}
+@media screen and (max-width: 1110px) {
+  .header__logo {
+    margin-left: 30px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .header__logo {
+    margin-left: 10px;
+  }
+}
+.header__nav {
+  font-family: "LTSuperiorM", Arial, Helvetica, sans-serif;
+  font-size: 1.4rem;
+  width: 20%;
+}
+@media screen and (max-width: 1215px) {
+  .header__nav {
+    width: 20%;
+    font-size: 1.2rem;
+    margin-left: 100px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .header__nav {
+    font-size: 1.1rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  .header__nav {
+    display: none;
+  }
+}
+.header__contacts {
+  font-family: "Kanit", Arial, Helvetica, sans-serif;
+  font-size: 1.3rem;
+  color: rgb(95, 95, 95);
+  display: flex;
+}
+@media screen and (max-width: 1110px) {
+  .header__contacts {
+    font-size: 1.1rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .header__contacts {
+    font-size: 0.9rem;
+  }
+}
+.header__contacts .tel {
+  padding: 3px;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 1110px) {
+  .header__contacts .tel {
+    margin-right: 30px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .header__contacts .tel {
+    margin-right: 10px;
+  }
+}
+.header__contacts .insert {
+  display: block;
+  color: rgb(255, 167, 52);
+  font-size: 0.9rem;
+}
+@media screen and (max-width: 1110px) {
+  .header__contacts .insert {
+    font-size: 0.8rem;
+  }
+}
+
+.logo {
+  position: absolute;
+  top: 0px;
+  width: 280px;
+  height: 80px;
+  overflow: hidden;
+}
+@media screen and (max-width: 600px) {
+  .logo {
+    width: 196px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .logo {
+    width: 156px;
+  }
+}
+.logo__img {
+  position: relative;
+  right: 50px;
+  width: 380px;
+  height: 80px;
+}
+@media screen and (max-width: 600px) {
+  .logo__img {
+    width: 266px;
+    height: 56px;
+    top: 10px;
+    right: 30px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .logo__img {
+    width: 212px;
+    height: 44px;
+    top: 18px;
+    right: 22px;
+  }
+}
+
+.singup {
+  position: relative;
+  margin: 0 20px;
+  padding: 5px;
+  font-size: 1.2rem;
+  background-color: rgb(255, 167, 52);
+  color: white;
+  border-radius: 10px;
+  height: 42px;
+  width: 150px;
+  font-family: "LTSuperiorM", Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  display: block;
+}
+.singup__text {
+  padding: 0;
+}
+.singup__resource {
+  font-size: 0.8rem;
+  color: rgb(0, 0, 152);
+}
+@media screen and (max-width: 900px) {
+  .singup {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    z-index: 200;
+  }
+}
+
+.singup:hover {
+  background-color: rgb(223, 147, 47);
+  color: rgb(220, 220, 220);
+  transition: all 0.3s linear;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  position: relative;
+}
+.nav__item {
+  display: flex;
+}
+.nav__link {
+  display: flex;
+  text-decoration: none;
+  color: black;
+  border-radius: 10px;
+  height: 42px;
+  min-width: 150px;
+  margin: 0 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  transition: background-color 0.3s linear;
+  cursor: pointer;
+}
+@media screen and (max-width: 1100px) {
+  .nav__link {
+    display: block;
+    margin: 0 auto;
+    padding: 0px;
+    text-align: center;
+  }
+}
+.nav__link:hover {
+  background-color: rgb(255, 242, 200);
+}
+.nav__icon {
+  position: relative;
+  top: -2px;
+}
+.nav__icon img {
+  width: 25px;
+  height: 25px;
+}
+@media screen and (max-width: 1215px) {
+  .nav__icon img {
+    width: 22px;
+    height: 22px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .nav__icon img {
+    display: block;
+    margin: 0 auto;
+  }
+}
+.nav__name {
+  margin-left: 10px;
+  position: relative;
+  top: 0px;
+}/*# sourceMappingURL=Header.css.map */

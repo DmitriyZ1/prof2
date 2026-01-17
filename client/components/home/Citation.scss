@@ -1,0 +1,35 @@
+@import '../../style.scss';
+
+
+.citation-put{
+    margin: 35px auto;
+}
+
+.citation{
+    padding: 40px 0;
+    width: 90%;
+    background-color:  $background-base;
+    border-radius: 30px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .citation__content{
+        padding: 0 50px;
+    }
+    .citation__text{
+        font-family: "Kindentosca", Arial, Helvetica, sans-serif;
+        font-size: 2rem;
+        @media screen and (max-width: 1200px) {
+            font-size: 1.7rem;
+        }
+        @media screen and (max-width: 500px) {
+            font-size: 1.4rem;
+        }
+        
+        span{
+          display: inline-block;
+        }
+    }
+
+}

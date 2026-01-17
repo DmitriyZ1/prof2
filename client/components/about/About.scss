@@ -1,0 +1,37 @@
+@import '../../style.scss';
+
+.about {
+    min-height: 500px;
+}
+
+.myself{
+    width: 80%;
+    // min-height: 300px;
+    // background-color: azure;
+    margin: 0px auto;
+    padding: 15px;
+    position: relative;
+    padding-bottom: 50px;
+    &__title{
+        font-family:'Deledd0',Arial, Helvetica, sans-serif;
+        font-size: 2rem;
+        margin: 20px 20px;
+    }
+    &__paragraf{
+        font-family:'Deledda',Arial, Helvetica, sans-serif;
+        font-size: 1.4rem;
+        text-indent: 1.5rem;
+        line-height: 1.6rem;
+    }
+    &__pic-one{
+        max-width: 300px;
+        float:right;
+        margin: 10px;
+    }
+    &__pic-two{
+        max-width: 200px;
+        float:left;
+        margin: 10px;
+    }
+}
+

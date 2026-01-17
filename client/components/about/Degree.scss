@@ -1,0 +1,48 @@
+@import '../../style.scss';
+
+.degree{
+    width: 80%;
+    margin: 50px auto;
+    position: relative;
+    padding-bottom: 50px;
+    // min-height: 1000px;
+    background-color: $background-base;
+    border-radius: 20px;
+    &__content{
+        padding: 15px 30px;
+        width: 100%;
+    }
+    &__title{
+        margin-top: 20px;
+        margin-bottom: 50px;
+        text-align: center;
+        font-size: 2rem;
+        font-family:'Deledd0',Arial, Helvetica, sans-serif;
+    }
+    &__cards{
+        list-style-type: none;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: 360px;
+        column-gap: 2rem;
+    }
+    &__item{
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__pic{
+        display: block;
+        max-height: 320px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+}
+
+.pic-show{
+    display: block;
+    margin: 10px auto;
+    border-radius: 20px;
+    max-height: 95vh;
+}
