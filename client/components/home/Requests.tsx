@@ -61,7 +61,7 @@ export default function Requests() {
     return (
         <div className="requests">
             <div className="requests__content">
-                <h2 className="requests__title">Ко мне можно обратиться с такими вопросами как:</h2>
+                <h2 className="requests__title">Люди часто приходят ко мне с такими вопросами:</h2>
                 <ul className="requests__list">
                     {cards.map(item => (
                         <li className="requests__item" key={item.id}>

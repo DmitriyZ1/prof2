@@ -16,6 +16,7 @@
         font-family:'Kanit',Arial, Helvetica, sans-serif;
         font-size: 2rem;
         margin: 20px 20px;
+        margin-top: 40px;
         @media screen and (max-width: 1200px) {
             font-size: 1.8rem;
         }
@@ -38,8 +39,35 @@
             text-indent: 1.1rem;
             line-height: 1.2rem;
         }
-        
     }
+    &__paragraf-b{
+        margin-top: 50px;
+        font-family:'MagnetTrialM',Arial, Helvetica, sans-serif;
+        font-size: 1.5rem;
+    }
+    &__span{
+        font-family:'MagnetTrialM',Arial, Helvetica, sans-serif; 
+    }
+    
+    &__list-p{
+        font-family:'MagnetTrialL',Arial, Helvetica, sans-serif;
+        font-size: 1.3rem;
+        text-indent: 1.5rem;
+        line-height: 1.6rem;
+        margin-left: 20px;
+        @media screen and (max-width: 1200px) {
+            font-size: 1.1rem;
+            text-indent: 1.3rem;
+            line-height: 1.4rem;
+        }
+        @media screen and (max-width: 500px) {
+            font-size: 0.9rem;
+            text-indent: 1.1rem;
+            line-height: 1.2rem;
+        }
+    }
+
+
     &__wrapper{
         display: flex;
         justify-content: space-between;
@@ -87,6 +115,14 @@
     }
     &__item{
         margin: 10px 0;
+        width: 100%;
+    }
+    &__item-p{
+        margin: 6px 0;
+        width: 100%;
+    }
+    &__marg{
+        margin-top: 10px;
         width: 100%;
     }
 }
